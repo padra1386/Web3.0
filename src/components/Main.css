@@ -1,0 +1,80 @@
+.main {
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.punkHighlight {
+  display: flex;
+  flex: 0.25;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 800;
+}
+
+.title > span {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.activePunk {
+  display: flex;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.ownerDetails {
+  display: flex;
+  object-fit: contain;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.ownerLinkContainer {
+  display: flex;
+}
+
+.ownerLinkImage {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ownerHandle {
+  color: #0000ff;
+}
+
+.ownerLink {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.ownerImage {
+  display: flex;
+  height: 70px;
+  border-radius: 50%;
+}
